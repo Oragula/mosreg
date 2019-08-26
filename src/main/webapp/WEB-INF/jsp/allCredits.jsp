@@ -15,6 +15,7 @@
             <td>Срок</td>
             <td>id клиента</td>
             <td>Имя клиента</td>
+            <td>Фамилия клиента</td>
             <td>Страна подачи завки</td>
             <td>Лимит заявок в минуту</td>
         </tr>
@@ -26,6 +27,7 @@
             <td>${credit.term}</td>
             <td>${credit.client.idClient}</td>
             <td>${credit.client.name}</td>
+            <td>${credit.client.surname}</td>
             <td>${credit.country.countryName}</td>
             <td>${credit.country.ordersPerMinute == 0 ? "" : credit.country.ordersPerMinute}</td>
         </tr>
