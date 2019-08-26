@@ -1,0 +1,42 @@
+.desc {
+    position: absolute;
+    text-align: right;
+    width: 300px;
+    line-height: 1.35;
+}
+
+.form {
+    position: absolute;
+    text-align: left;
+    left: 320px;
+}
+
+TABLE {
+    border-collapse: collapse; /* Убираем двойные линии между ячейками */
+    text-align: center;
+    align-content: center;
+}
+
+THEAD TH {
+    border-top-width: medium;
+    border-bottom-width: medium;
+    background: #b0e0e6; /* Цвет фона */
+}
+
+
+TD, TH {
+    padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 1px solid black; /* Параметры рамки */
+}
+
+TH {
+    background: #E0FFFF; /* Цвет фона */
+}
+
+INPUT[type=text] {
+    width: 400px;
+}
+
+SELECT {
+    width: 400px;
+}
